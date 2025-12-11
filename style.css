@@ -1,18 +1,18 @@
-/* .navbar-brand {
-  color: green !important;
-} */
-
+/* reset default spacing for all elements*/
 * {
   margin: 0;
   padding: 0;
 }
 
+/* style for all icons*/
 i {
   font-size: 35px;
   cursor: pointer;
   margin: 0 10px;
   color: black;
 }
+
+/*center main content vertically + horizontally*/
 main {
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@ main {
   align-items: center;
 }
 
+/*container of the whole shopping cart */
 .shopping-card-container {
   display: flex;
   flex-direction: column;
@@ -29,6 +30,8 @@ main {
   padding: 3%;
   margin: 50px 0;
 }
+
+/*total price style*/
 .total-price span {
   font-size: 30px;
 }
@@ -36,15 +39,21 @@ main {
 .total {
   font-weight: bold;
 }
+
+/*container of all cards*/
 .list-products {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   width: 70%;
 }
+
+/*each product card spacing */
 .card {
   padding: 5%;
 }
+
+/*center content inside each card*/
 .card-body {
   display: flex;
   flex-direction: column;
@@ -52,10 +61,12 @@ main {
   align-items: center;
 }
 
+/*quantity number size */
 .quantity {
   font-size: 25px;
 }
 
+/* Layout for control buttons inside the card */
 .card-body div {
   display: flex;
   justify-content: center;
@@ -63,6 +74,7 @@ main {
   margin-top: 25px;
 }
 
+/* Trash icon color */
 .fa-trash-alt {
   color: #de6b5c;
 }
